@@ -1,0 +1,7 @@
+POST http://localhost:3000/api/review
+Content-Type: application/json
+
+{
+  "code": "function getUser(id) { return db.query('SELECT * FROM users WHERE id = ' + id); }",
+  "language": "javascript"
+}
