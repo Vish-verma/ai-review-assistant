@@ -25,3 +25,4 @@ build/
 # Local data (vector store, cache files from Day 5/6)
 *.local.json
 data/embeddings.json
+models.txt
